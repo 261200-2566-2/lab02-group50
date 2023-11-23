@@ -12,6 +12,7 @@ public class Main {
 
             System.out.println(AirPurifier.modelCount);
 
+            System.out.println(af_1.model);
             System.out.println(af_3.model);
 
             af_1.turnOn();

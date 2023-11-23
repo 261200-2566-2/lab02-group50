@@ -25,7 +25,7 @@ public class AirPurifier {
     void turnOn() { power = true; } //instance methods
     void turnOff() { power = false; } //instance methods
 
-    static String mostPopularModel() {//class methods
+    static String mostPopularModel() {// class methods
         if(PromodelCount > BasicmodelCount){
             return "Pro";
         }else{
